@@ -1,0 +1,20 @@
+.map_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.map {
+  height: 600px;
+}
+#ol_vector_pluscode {
+  background: white;
+  border-radius: 2px;
+  font-size: 1.6;
+  left: 50px;
+  min-width: 200px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+}
+
