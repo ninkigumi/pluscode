@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
+    <link rel="stylesheet" href="./grid.css" type="text/css">
+    <script src="./grid.js"></script>
+    <title>Plus Code Grid Service</title>
+  </head>
+  <body onload="pageLoad()">
+    <div class="example_container">
+      <div id="openlayers_vector" class="example">
+        <h2>GeoJSON vector tiles with OpenLayers</h2>
+        <div class="container">
+          <div class="map_container">
+            <div class="map"></div>
+            <div id="ol_vector_pluscode">Click cell, get plus code</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
